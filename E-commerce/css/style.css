@@ -1,0 +1,33 @@
+.wrapper{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100dvh;
+}
+
+#hero-section{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url('/assets/image/logo/herobg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100dvh;
+}
+
+#hero-product-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/assets/image/logo/herobg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.product-img {
+  aspect-ratio: 5 / 4;
+}
+
+#about-img {
+  max-width: 250px;
+}
+
+.icons {
+  font-size: 60px;
+}
